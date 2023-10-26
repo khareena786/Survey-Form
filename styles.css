@@ -1,0 +1,61 @@
+body{
+    width: 100%;
+    background-color: black;
+    color: solid black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    background-image: url("https://cdn.wallpapersafari.com/84/99/D3e06I.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1, p{
+    text-align: center;
+}
+
+form{
+    width: 60vw;
+    max-width: 400px;
+    min-width: 300px;
+    margin: 0 auto;
+}
+
+fieldset{
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid black;
+}
+
+label{
+    display: block;
+    margin: 0.5rem 0;
+}
+
+input , select{
+    margin: 10px 0 0 0;
+    width: 100%;
+}
+
+input{
+    background-color: white;
+    border: 1px solid black;
+
+}
+
+.inline{
+      width: 100%;
+      margin: 0 0.5 0;
+      vertical-align: middle;
+}
+
+input[type="submit"]{
+    display: block;
+    width: 60%;
+    margin: auto;
+    height: 2em;
+    font-size: 1.1;
+    background-color: white;
+    border-color: black;
+    min-width: 300px;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SURVEY</title>
+    <link href="styles.css" rel="stylesheet"/>
+</head>
+<body>
+    <h1>DECODE SURVEY FORM</h1>
+    <p>Thank you for taking the time to help us improve the platform</p>
+    <form method="post" action="https://www.google.com">
+    <fieldset>
+        <label for="name">Name
+            <input id="name" name="name" type="txt" required></label>
+            <label for="Email">Email
+                <input id="email" name="email" type="email" required></label>
+                <label for="age">Age(optional)
+                <input id="age" name="age" type="number" ></label>
+               </fieldset>
+                <fieldset>
+                <label for="role">which option best describes your current role?<select id="role" name="role" >
+                            <option value="">select current role</option>
+                            <option value="1">Employee</option>
+                            <option value="2">Student</option>
+                            <option value="3">Fresher</option>
+                            <option value="4">Associate Software Engineer</option>
+                      </select>
+                     </label>
+                </fieldset>
+             <fieldset>
+                <label for="name">Would you recommend Free code camp to a friend?
+                    <input id="Definitely" type="radio" name="Definitely" class="inline"/>Definitely</label>
+                    <label for="name">
+                        <input id="Maybe" type="radio" name="Maybe" class="inline"/>Maybe</label>
+                        <label for="name">
+                            <input id="Not sure" type="radio" name="Not sure" class="inline"/>Not Sure</label>         
+    </fieldset>
+    <fieldset>
+        <label for="role">what is your favorite feature of decode?<select id="role" name="role" >
+            <option value="">select an option</option>
+            <option value="1">HTML</option>
+            <option value="2">CSS</option>
+            <option value="3">HTML5</option>
+            <option value="4">JAVA SCRIPT</option>
+      </select>
+    </fieldset>
+    <fieldset>
+        <label for ="name"> What would You like to see improved?(check all that apply)
+            <input id="name" type="checkbox" name="txt" class="inline"/>Front-End Projects
+        </label>
+        <label for ="name"> 
+            <input id="name" type="checkbox" name="txt" class="inline"/>Back-End Projects
+        </label>
+        <label for ="name"> 
+            <input id="name" type="checkbox" name="txt" class="inline"/>Data Visualization
+        </label>
+        <label for ="name"> 
+            <input id="name" type="checkbox" name="txt" class="inline"/>Challenges
+        </label>
+        <label for ="name"> 
+            <input id="name" type="checkbox" name="txt" class="inline"/>Open Source Community
+        </label>
+        <label for ="name"> 
+            <input id="name" type="checkbox" name="txt" class="inline"/>City Meetups
+        </label>
+        <label for ="name">
+                <input id="name" type="checkbox" name="txt" class="inline"/>Wiki
+            </label>
+       </fieldset>
+     
+        <input type="submit" value="submit"/>
+    </form>
+</body>
+</html>
